@@ -1,6 +1,3 @@
----
-
-````markdown
 # AWS Terraform Foundation
 
 This repository provides Terraform configurations to bootstrap a foundational AWS infrastructure, including VPCs, subnets, security groups, S3 buckets (with optional SSL cert), and backend state with S3 + DynamoDB for locks.
@@ -216,8 +213,3 @@ Consider adding:
 * Module inputs for NAT gateways or endpoints
 * DNS provisioning (Route53)
 * CI/CD pipeline automation (GitHub Actions, etc.)
-
-```
-
----
-```
